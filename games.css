@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+
+html{
+    font-size: 130%;
+
+}
+body{
+    background-image: url(sniper2.png);
+    width: 100%;
+    color: white;
+}
+
+header{
+    margin-top: -15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 4%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-size: 1.8rem;
+    color: white;
+
+}
+
+.logo{
+    font-size: 3rem;
+    color: rgba(192, 192, 192, 1);
+    cursor: pointer;
+    font-weight: 800;
+    transition: 0.5s ease;
+
+}
+.logo:hover{
+    transform: scale(1.1);
+    color: #b74b4b;
+}
+nav{
+
+    color: white;
+}
+
+.nav a {
+    font-size: 1.8rem;
+    color:white;
+    margin-left: 4rem;
+    font-weight: 500rem;
+    transition: 0.3 ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    color: #b74b4b;
+    border-bottom: 3px solid #b74b4b;
+}
+.Games .Games-content{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+
+}
+.dropdown{
+    display: inline-block;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    
+}
+.dropdown button{
+    background-color: rgb(90, 90, 90);
+    color: white;
+    padding: 10px 13px;
+    border: none;
+    cursor: pointer;
+    margin: 1rem 1rem 0rem;
+
+}
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    
+}
+.dropdown .content{
+    display: none;
+    position:absolute;
+    background-color: rgba(50, 50, 50, 20%);
+    backdrop-filter: blur(5px);
+    min-width: 300px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);    
+}
+.dropdown:hover .content{
+    display: block;
+
+}
+.dropdown:hover button{
+    background-color: #b74b4b;
+    
+}
+.dropdown a:hover{
+    background-color: #b74b4b;
+}
+ .slide img
+    {
+        width: 480px;
+        height: 260px;
+        float: left;
+
+    }
+.slideshow
+    {
+        width: 480px;
+        height: 260px;
+        margin: 7rem 1rem 0rem;
+        overflow: hidden;
+    }
+.slide_wrapper
+    {
+        animation: slide 50s ease infinite;
+        width: calc(480px*17);
+    }
+@keyframes slide
+    {   
+        5%
+        {
+            margin-left: 0px;
+        }
+        10%
+        {
+            margin-left: calc(-480px*1);
+        }
+        15%
+        {
+            margin-left: calc(-480px*2);
+        }
+        20%
+        {
+            margin-left: calc(-480px*3);
+        }
+        25%
+        {
+            margin-left: calc(-480px*4);
+        }
+        30%
+        
+        {
+            margin-left: calc(-480px*5);
+        }
+        35%
+        {
+            margin-left: calc(-480px*6);
+        }
+        40%
+        {
+            margin-left: calc(-480px*7);
+        }
+        45%
+        {
+            margin-left: calc(-480px*8);
+        }
+        50%
+        {
+            margin-left: calc(-480px*9);
+        }
+        55%
+        {
+            margin-left: calc(-480px*10);
+        }
+        60%
+        {
+            margin-left: calc(-480px*11);
+        }
+        65%
+        {
+            margin-left: calc(-480px*12);
+        }
+        70%
+        {   
+            margin-left: calc(-480px*13);
+        }
+        75%
+        {
+            margin-left: calc(-480px*14);
+        }
+        80%
+        {
+            margin-left: calc(-480px*15);
+        }
+        85%
+        {
+            margin-left: calc(-480px*16);
+        }
+        90%
+        {
+            margin-left: calc(-480px*17);
+        }
+        95%
+        {
+            margin-left: calc(-480px*18);
+        }
+    }
+    
